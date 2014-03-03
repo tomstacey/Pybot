@@ -27,7 +27,7 @@ def forward():
     return
 
 def reverse():
-	GPIO.output(11, GPIO.HIGH)
+    GPIO.output(11, GPIO.HIGH)
     GPIO.output(12, GPIO.LOW)
     GPIO.output(13, GPIO.HIGH)
     GPIO.output(16, GPIO.LOW)
@@ -35,7 +35,7 @@ def reverse():
     return
     
 def left():
-	GPIO.output(11, GPIO.HIGH)
+    GPIO.output(11, GPIO.HIGH)
     GPIO.output(12, GPIO.LOW)
     GPIO.output(13, GPIO.HIGH)
     GPIO.output(16, GPIO.HIGH)
@@ -44,7 +44,7 @@ def left():
 	
 	
 def right():
-	GPIO.output(11, GPIO.HIGH)
+    GPIO.output(11, GPIO.HIGH)
     GPIO.output(12, GPIO.HIGH)
     GPIO.output(13, GPIO.LOW)
     GPIO.output(16, GPIO.LOW)
@@ -52,7 +52,7 @@ def right():
     return
     
 def stop():
-	GPIO.output(11, GPIO.LOW)
+    GPIO.output(11, GPIO.LOW)
     GPIO.output(12, GPIO.LOW)
     GPIO.output(13, GPIO.LOW)
     GPIO.output(16, GPIO.LOW)
