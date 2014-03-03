@@ -19,10 +19,10 @@ print(killswitchstatus)
 ## functions - these functions actually make the hardware respond on a GPIO level
 
 def forward():
-	GPIO.output(11, GPIO.HIGH)
+    GPIO.output(11, GPIO.HIGH)
     GPIO.output(12, GPIO.HIGH)
     GPIO.output(13, GPIO.LOW)
-	GPIO.output(16, GPIO.HIGH)
+    GPIO.output(16, GPIO.HIGH)
     GPIO.output(18, GPIO.LOW)
     return
 
